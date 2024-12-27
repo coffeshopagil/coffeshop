@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cake Lumer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <!-- Link ke file CSS eksternal -->
+    <link rel="stylesheet" href="style.css">
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Article",
+            "mainEntityOfPage": {
+              "@type": "WebPage",
+              "@id": "https://dama1410.github.io/cakelumerku/"
+            },
+            "headline": "cake lumer aku",
+            "description": "semanis senyuman kamu",
+            "image": "https://id.pinterest.com/pin/609182287121252254/",  
+            "author": {
+              "@type": "Person",
+              "name": "Mutia damayanti",
+              "url": "https://wa.me/qr/JPTDZPY4VWBPD1"
+            },  
+            "publisher": {
+              "@type": "Organization",
+              "name": "Mutia damayanti",
+              "logo": {
+                "@type": "ImageObject",
+                "url": "https://id.pinterest.com/pin/9218374231431603/"
+              },
+              "url": "https://maps.app.goo.gl/imZ6hZR4TAbQeuXcA"
+            },
+            "datePublished": "2024-12-13",
+            "dateModified": "2024-12-13"
+          }
+          
+        </script>
+</head>
+<body>
+    <header>
+        <h1>Selamat Datang di Coffe shop!</h1>
+        <p>coffe kental <span class="highlight">creamy</span> untuk setiap momen spesial</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#tentang">Tentang Kami</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#pesanan">Pesan Sekarang</a></li>
+            <li><a href="#kontak">Hubungi Kami</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="tentang">
+            <h2>Tentang Coffe shop</h2>
+            <p>Coffe shop adalah sebuah coffee shop yang mengusung konsep kehangatan dan kenyamanan untuk menikmati secangkir kopi..</p>
+        </section>
+        <section id="menu">
+            <h2>Menu Kami</h2>
+            <div class="coffe">
+                <img src="espresso.jpg" alt="espresso">
+                <h3>coffe espresso </h3>
+                <p>minuman kopi yang dibuat dengan mengekstraksi biji kopi bubuk menggunakan tekanan tinggi dan air panas.</p>
+            </div>
+            <div class="coffe">
+                <img src="cappusicno.jpg" alt="coffe cappucino">
+                <h3>Coffe cappucino </h3>
+                <p>Perpaduan ini menciptakan rasa yang seimbang antara kekuatan kopi dan kelembutan susu.</p>
+            </div>
+            <div class="coffe">
+                <img src="matcha.jpg" alt="coffe matcha">
+                <h3>Coffe matcha </h3>
+                <p>perpaduan unik antara rasa kuat espresso dan lembutnya matcha (teh hijau bubuk).</p>
+            </div>
+        </section>
+        <section id="pesanan">
+            <h2>Pesan Sekarang</h2>
+            <form action="" method="POST" class="order-form">
+                <label for="nama">Nama:</label>
+                <input type="text" id="nama" name="nama" placeholder="Masukkan nama Anda" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Masukkan email Anda" required>
+
+                <label for="telepon">Nomor Telepon:</label>
+                <input type="tel" id="telepon" name="telepon" placeholder="Masukkan nomor telepon Anda" required>
+
+                <label for="pilihan-kue">Pilih coffe:</label>
+                <select id="pilihan-kue" name="pilihan-kue" required>
+                    <option value="esspreso">Coffe espresso</option>
+                    <option value="cappucino">Coffe cappucino</option>
+                    <option value="matcha">Coffe matcha</option>
+                </select>
+
+                <label for="jumlah">Jumlah:</label>
+                <input type="number" id="jumlah" name="jumlah" min="1" placeholder="Masukkan jumlah pesanan" required>
+
+                <label for="pesan">Pesan Tambahan:</label>
+                <textarea id="pesan" name="pesan" rows="4" placeholder="Tuliskan pesan tambahan"></textarea>
+
+                <button type="submit">Pesan Sekarang</button>
+            </form>
+        </section>
+        <section id="kontak">
+            <h2>Hubungi Kami</h2>
+            <p>Email: <a href="mailto:aku@cakelumer.com">aku@coffeshop.com</a></p>
+            <p>Telepon: +62 88213242117</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Coffe shop</p>
+    </footer>
+</body>
+</html>
